@@ -1,12 +1,8 @@
-<section class="component__grid">
-	<div class="component__container" *ngFor="let berry of berries">
-		<img class="product__img" [src]="berry.img">
-		<div class="product__info" role="header">
-			<h3 class="product__title" aria-label="product name">
-        {{ berry.title }}</h3>
-			<p class="product__description">{{ berry.description }}</p>
-			<p class="product__price" aria-label="product price">
-        {{ berry.price |currency:'EUR' }} / kilo</p>
-		</div>
-	</div>
-</section>
+<img class="product__img" [src]="berry.img">
+<div class="product__info" role="header">
+  <h3 class="product__title" aria-label="product name">
+    {{ berry.title }}</h3>
+  <p class="product__description">{{ berry.description }}</p>
+  <p class="product__price" aria-label="product price">
+    {{ berry.price | currency:'EUR' }} / kilo</p>
+</div>

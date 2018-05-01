@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { BERRIES } from '../mock-berries';
+import {Component, Input} from '@angular/core';
+import {Berry} from '../berry.interface';
 
 
 @Component({
@@ -9,6 +9,6 @@ import { BERRIES } from '../mock-berries';
 })
 export class BbCardComponent {
 
-  berries = BERRIES;
+  @Input() berry: Berry;
 
 }
