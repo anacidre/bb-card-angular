@@ -1,0 +1,55 @@
+.component__grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.component__container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 50%;
+  max-width: 200px;
+  background-color: #BF395B;
+  margin: 10px; 
+}
+.product__img {
+  flex-grow: 1;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.product__info {
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+}
+.product__title {
+  font-family: sans-serif;
+  font-size: 1em;
+  width: 200px;
+  color: #fff;
+  margin: 0;
+}
+.product__title h3{
+  margin: 0;
+}
+.product__description {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  margin: 4px 0 0 0;
+  font-size: 0.75em;
+}
+.product__description p {
+  margin: 0;
+}
+.product__price {
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  color: #fff;
+  font-weight: 800;
+}
+.product__price p {
+  margin: 0;
+}
