@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BERRIES } from './mock-berries';
 
 @Component({
   selector: 'my-app',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  berries = BERRIES;
 
 }
